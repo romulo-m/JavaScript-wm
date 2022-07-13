@@ -2,10 +2,10 @@
   "name": "funcionarios",
   "version": "1.0.0",
   "description": "testes",
-  "main": "index.js",
+  "main": "funcionarios.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./testandoImportacao.js"
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rômulo",
   "license": "ISC",

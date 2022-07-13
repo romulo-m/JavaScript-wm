@@ -8,7 +8,7 @@ const menorSalario = (func, funcAtual) => {
 }
 
 // lista de 500 nomes => Mulher, chinesa, com o menor salário?!
-export default function testandoImportacao() {
+function testandoImportacao() {
     axios.get(url).then(response => {
         const funcionarios = response.data
         
@@ -22,6 +22,7 @@ export default function testandoImportacao() {
     })
 }
 
+testandoImportacao()
 
 
 
